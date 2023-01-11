@@ -27,4 +27,28 @@ img{
     width: 500%;
     height: 500px;
     display: flex;
+    transform: translateX(0px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    width: 49.5%;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:focus{
+    outline: none;
 }
